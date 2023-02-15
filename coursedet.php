@@ -21,7 +21,7 @@ if (mysqli_connect_errno())
 <body>
 <div class="hero">
     <nav>
-        <img src="pic/homework.png" class="logo">
+        <img src="homework.png" class="logo">
         <h5 style="font-size: 70px;">coursindia</h5>
 			<ul>
 				

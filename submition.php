@@ -19,7 +19,7 @@ if (mysqli_connect_errno())
 <body>
 <div class="hero">
     <nav>
-        <img src="pic/homework.png" class="logo">
+        <img src="homework.png" class="logo">
         <h5 style="font-size: 70px;">coursindia</h5>
 			<ul>
 				
@@ -71,14 +71,14 @@ if (mysqli_connect_errno())
 
 <div class="label">
     <label for="seatlimit">Course Company :  </label>
-    <input type="text" class="searchb"" id="seatlimit" name="seatlimit" placeholder="Seat limit" required />
+    <input type="text" class="searchb" id="seatlimit" name="seatlimit" placeholder="Seat limit" required />
   </div> 
   <br>
  
 
   <div class="label">
     <label for="clink">Course Link  </label>
-    <input type="text" class="searchb"" id="clink" name="clink" placeholder="Seat limit" required />
+    <input type="text" class="searchb" id="clink" name="clink" placeholder="Seat limit" required />
   </div>
   <br>
  

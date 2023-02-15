@@ -5,7 +5,7 @@
 <body>
 <div class="hero">
     <nav>
-        &nbsp &nbsp <img src="pic/homework.png" class="logo">
+        &nbsp &nbsp <img src="homework.png" class="logo">
         <h5 style="font-size: 70px;">coursindia</h5>
 			<ul>
 				
