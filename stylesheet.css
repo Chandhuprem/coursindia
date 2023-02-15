@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.hero{
+    width: 100%;
+    display: inline-block;
+    padding: 20px,10%;
+
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+    margin-right: 150px;
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav .logo{
+    width: 120px;
+   
+    cursor: pointer;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    position: relative;
+    padding: 10px;
+}
+body{
+    background: linear-gradient(to bottom right,#e0b3ff,#b84dff);
+
+}
+.row{
+    display:flex;
+    height:88% ;
+    align-items: center;
+
+}
+.col{
+    flex-basis: 50%;
+
+}
+h1{
+    color: aquamarine;
+    font-size : 100px; 
+}
+p{
+   color:aliceblue;
+   font-size: 11px;
+   line-height: 15px;
+}
+button{
+    width: 180px;
+    color:black;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px ;
+}
+.card{
+    width: 330px;
+    height: 220px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    
+    background-position: center;
+    background-size: cover;
+
+}
+.card1{
+
+    background-image: url(pic/google.jpg); ;
+}
+.card2{
+
+    background-image: url(pic/amazon.jpg);
+}
+.card3{
+
+    background-image: url(pic/micro.jpg);
+}
+
+.card4{
+
+    background-image: url(pic/cousera.png);
+}
+h2{
+color: greenyellow;
+text-shadow:  1px 0 #0a0010;
+}

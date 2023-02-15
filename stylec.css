@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.hero{
+    width: 100%;
+    display: inline-block;
+    padding: 20px,10%;
+
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+    margin-right: 150px;
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav .logo{
+    width: 120px;
+   
+    cursor: pointer;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    position: relative;
+    padding: 10px;
+}
+body{
+    background: linear-gradient(to bottom right,#86dfff,#4dbeff);
+
+}
+button{
+    width: 180px;
+    color:black;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px ;
+}
+.card{
+    width: 330px;
+    height: 220px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    
+    background-position: center;
+    background-size: cover;
+
+}
+.content{
+    border-collapse: collapse;
+    margin: 45px;
+    font-size: 0.9cm;
+    min-width: 1500px;
+    min-height: 700px;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px black;
+}
+.content thead tr{
+    background-color: rgb(123, 0, 255);
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+    height: 80px;
+}
+.content th
+.content td{
+    padding: 12px 15px ;
+    border-left: 1px solid rgb(0, 0, 0) ;
+}
+.content tbody tr{
+    border-bottom: 1px solid rgb(0, 0, 0) ;
+    
+}
+ .content tbody tr:nth-of-type(even){
+    background-color:#5adeff ;
+
+ }
+ .content tbody tr:last-of-type{
+    border-bottom: 2px solid #009879;
+ }
+.searchb{
+
+    border-radius: 12px;
+    border-color: #009879;
+    border: 25px;
+    font-size: 20px;
+    width: 320px;
+    height: 40px;
+}
+.label{
+    font-size: 35px;
+    color: #08b059;
+    font-weight:5px ;
+}
